@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        body{font-size: 1.2em;}
+    </style>
+</head>
+<body>
+
+    <div style="background-color: chartreuse;">
+        <div>Esta é uma DIV normal</div>
+        <div>
+            E aqui a história<div style="background-color: red;width: 500px;height: 50px;">Div de dentro</div> continua
+        </div>
+    </div>
+
+    <div>
+        <p>Este é um parágrafo normal</p>
+        <p>E aqui a história continua</p>
+    </div>
+
+    <p>
+        Aqui eu tenho o inicio de um parágrafo <span style= "background-color: blue; width: 500px;display: inline-block;"> um SPAN 
+        no meio</span> E o fim do parágrafo.
+        <!-- Com display in-line não conseguimos modificar a altura e nem a largura do elemento -->
+        <!-- Display in-line-block permite modificar a largura e altura -->
+    </p>
+
+    <p>
+        Aqui eu tenho o inicio de um parágrafo <div> um SPAN 
+        no meio</div> E o fim do parágrafo.
+    </p>
+
+    <p>
+        Aqui eu tenho o inicio de um paragráfo <img src="./imagem/pc.jpg" style="width: 400px;"> E o fim do paragráfo.
+    </p>
+
+
+    
+</body>
+</html>
