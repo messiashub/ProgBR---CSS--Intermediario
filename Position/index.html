@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style type="text/css">
+    body{font-size: 1.2rem;}
+    .sticky{position: sticky; top: 0;}
+    .static{position: static;}
+    .relative{position: relative; left: -20px;}
+    .fixed{position: fixed;right: 20px;bottom: 20px;}
+    .absolute{position: absolute;}
+    .quadrado{width: 100px; height: 100px; display: inline-block;}
+    .ret{width: 200px;height: 500px;margin-top: 10px; overflow: auto;}
+    .bg-blue{background-color: blue;}
+    .bg-red{background-color: red;}
+    .bg-green{background-color: green;}
+    
+    </style>
+</head>
+<body>
+    <div class="bg-blue ret">
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-green sticky"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+    </div>
+</body>
+</html>
