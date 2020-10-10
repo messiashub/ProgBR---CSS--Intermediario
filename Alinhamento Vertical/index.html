@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style type="text/css">
+        body{
+            font-size: 1.2rem;
+        }
+        .card{
+            position: relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+        }
+        .c1{
+            background-color: red;
+            line-height: 200px;
+        }
+        .c2{
+            background-color: rgb(0, 217, 255);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card2{
+            clear: left;
+            float: left;
+            border: 2px solid green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="c1">
+            Claudinei Messias
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="c2">
+            Claudinei Messias
+        </div>
+    </div>
+
+    <div class="card2">
+        <div>
+            Claudinei Messias
+        </div>
+    </div>
+    
+</body>
+</html>
